@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency             'faraday',             '>= 0.8'
   gem.add_dependency             'faraday_middleware',  '>= 0.8'
   gem.add_dependency             'activesupport',       '>= 3'
-  gem.add_dependency             'addressable',         '~> 2.3.4'
+  gem.add_dependency             'addressable',         '>= 2.3.4'
 
   gem.add_development_dependency 'awesome_print'
   gem.add_development_dependency 'rspec',               '~> 3.3.0'
