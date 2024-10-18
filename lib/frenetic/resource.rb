@@ -18,11 +18,11 @@ class Frenetic
 
     attr_reader :known_attributes, :raw_attributes
 
-    def self.api_client(client = nil)
+    def self.api_client(client = nil, &block)
       if client
         @api_client = client
       elsif block_given?
-        @api_client = Proc.new
+        @api_client = Proc.new(&block)
       elsif @api_client.is_a? Proc
         @api_client.call
       else
