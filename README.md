@@ -1,5 +1,7 @@
 # Frenetic  [![Gem Version][version_badge]][version] [![Build Status][travis_status]][travis]
 
+[![Overall](https://img.shields.io/endpoint?style=flat&url=https://app.opslevel.com/api/service_level/dqXAQ8Zz_LrkHTuPlrCIgfhBqZNSlZbk2tMHgvqblTA)](https://app.opslevel.com/services/frenetic/maturity-report)
+
 [version_badge]: https://badge.fury.io/rb/frenetic.png
 [version]: http://badge.fury.io/rb/frenetic
 [travis_status]: https://secure.travis-ci.org/dlindahl/frenetic.png
